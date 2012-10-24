@@ -1,0 +1,1 @@
+{config_load file=admin_groupdocsviewer_lang_conf}
