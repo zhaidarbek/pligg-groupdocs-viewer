@@ -21,9 +21,13 @@ function insertGroupDocs() {
     var iframe = '<iframe src="https://apps.groupdocs.com/document-viewer/embed/'+ifileid+'" frameborder="0" width="'+iwidth+'" height="'+iheight+'"></iframe>';
 
 	// place iframe in content
-	var tinyMceContent = tinyMCE.activeEditor.getContent();
-	if(tinyMceContent!="undefined" || tinyMceContent.length>0){
+	
+        console.log(tinyMceContent);
+	if(document.getElementsByTagName('textarea')[0].nextSibling && 
+       document.getElementsByTagName('textarea')[0].nextSibling.className && 
+       document.getElementsByTagName('textarea')[0].nextSibling.className.indexOf('mceEditor')!=-1){
 		// set content
+        var tinyMceContent = tinyMCE.activeEditor.getContent();
 		tinyMCE.activeEditor.setContent(tinyMceContent+iframe);
 	}else{
 	    // insert in content just after text if no TinyMCE
