@@ -1,4 +1,3 @@
-GROUPDOCS VIEWER
 GroupDocs HTML5 PDF Viewer plugin for Pligg CMS
 ===================
 
@@ -14,10 +13,9 @@ INSTALLATION
 4. If plugin doesn't work with tinyMCE please copy tiny_MCE.js file from plugin directory to modules/tinymce/js with rewrite
 
 ###[Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs](http://groupdocs.com)
-* [Doc to PDF, Doc to Docx, PPT to PDF, and other Document Conversions with GroupDocs Viewer](http://groupdocs.com/apps/viewer)
-* GroupDocs Viewer plugin - [HTML5 PDF Viewer] tool for Pligg CMS (http://devot-ee.com/add-ons/groupdocs-viewer)
+* [GroupDocs Viewer - HTML5 PDF Viewer tool for Pligg CMS](http://groupdocs.com/apps/viewer)
+* [DOC, DOCX, PDF Viewer in your Pligg CMS website](http://forums.pligg.com/free-modules/22931-groupdocs-viewer.html)
 * [Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs Annotation](http://groupdocs.com/apps/annotation)
-* [Download Viewer plugin source here](https://github.com/groupdocs/ee-groupdocs-viewer-source)
-* [Full documentation for integrating the GroupDocs Plugin with ExpressionEngine](http://groupdocs.com/docs/display/Viewer/Integrating+GroupDocs+Viewer+Plugin+with+ExpressionEngine)
+* [Download Viewer Pligg plugin source here](https://github.com/groupdocs/pligg-groupdocs-viewer-source)
 
 ###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
