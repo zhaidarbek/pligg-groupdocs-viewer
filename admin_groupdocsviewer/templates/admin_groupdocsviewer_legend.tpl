@@ -22,7 +22,7 @@ function insertGroupDocs() {
 
 	// place iframe in content
 	
-        console.log(tinyMceContent);
+        
 	if(document.getElementsByTagName('textarea')[0].nextSibling && 
        document.getElementsByTagName('textarea')[0].nextSibling.className && 
        document.getElementsByTagName('textarea')[0].nextSibling.className.indexOf('mceEditor')!=-1){
