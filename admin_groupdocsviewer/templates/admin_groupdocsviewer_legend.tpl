@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 		// add interface
-        $('#textarea-1').before('<div style="border:1px solid #bcbcbc;margin-bottom:7px;background-color:#CDE1F4;"><table><tr><td>Viewer:</td><td><input type="button" style="color:#003366;font-weight:bold;" value="Insert GroupDocs File ID" onclick="insertGroupDocs();"></td><td>Width:<input id="iwidth" type="text" style="width:50px;" value="600"/></td><td>Height:<input id="iheight" type="text" style="width:50px" value="700"/></td><td>File ID:<input id="ifileid" type="text" style="width:350px" value=""/></td></tr></table></div>');
+        $('#textarea-1').before('<div style="border:1px solid #bcbcbc;margin-bottom:7px;background-color:#CDE1F4;"><table><tr><td>Viewer:</td><td><input type="button" style="color:#003366;font-weight:bold;" value="Embed GroupDocs Viewer" onclick="insertGroupDocs();"></td><td>Width:<input id="iwidth" type="text" style="width:50px;" value="600"/></td><td>Height:<input id="iheight" type="text" style="width:50px" value="700"/></td><td>File ID:<input id="ifileid" type="text" style="width:350px" value=""/></td></tr></table></div>');
 });
 
 // Insert GroupDocs file
@@ -22,7 +22,7 @@ function insertGroupDocs() {
 
 	// place iframe in content
 	
-        
+        console.log(tinyMceContent);
 	if(document.getElementsByTagName('textarea')[0].nextSibling && 
        document.getElementsByTagName('textarea')[0].nextSibling.className && 
        document.getElementsByTagName('textarea')[0].nextSibling.className.indexOf('mceEditor')!=-1){
