@@ -15,7 +15,7 @@ With GroupDocs Viewer plugin for Pligg CMS you can easily view on website PDF's,
 ###[Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs](http://groupdocs.com)
 * [GroupDocs Viewer - HTML5 PDF Viewer tool for Pligg CMS](http://groupdocs.com/apps/viewer)
 * [DOC, DOCX, PDF Viewer in your Pligg CMS website](http://forums.pligg.com/free-modules/22931-groupdocs-viewer.html)
-* [Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs Annotation](http://groupdocs.com/apps/annotation)
+* [View PDF, Word, Excel, Powerpoint and Images with GroupDocs Viewer](http://groupdocs.com/apps/viewer)
 * [Download Viewer Pligg plugin source here](https://github.com/groupdocs/pligg-groupdocs-viewer-source)
 
 ###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
